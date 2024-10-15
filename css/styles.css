@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: 'Fredoka One', sans-serif; /* Fun, playful font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background color for better readability */
+    color: #333; /* Default text color */
+}
+
+/* Header */
+header {
+    background-color: #FFD700; /* Bright gold header */
+    text-align: center; /* Centered text */
+    padding: 50px 0; /* Spacing around header */
+}
+
+header h1 {
+    font-size: 3em; /* Large heading size */
+    color: #FF69B4; /* Hot Pink for main heading */
+}
+
+header p {
+    font-size: 1.5em; /* Medium paragraph size */
+    color: #FF4500; /* Orange Red for subheading */
+}
+
+/* Section Styles */
+.container {
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center container */
+}
+
+#intro {
+    margin: 50px 0; /* Spacing for intro section */
+    text-align: center; /* Centered text in intro */
+}
+
+/* Intro Video Styles */
+.video-container {
+    max-width: 800px; /* Adjust the max width as necessary */
+    margin: 0 auto; /* Center the video */
+    border: 2px solid #4A90E2; /* Optional: Add a border for a professional look */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    overflow: hidden; /* Hide any overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.video-container video {
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Match container's rounded corners */
+}
+
+#courses {
+    margin: 50px 0; /* Spacing for courses section */
+}
+
+.course {
+    border: 1px solid #ccc; /* Border for course blocks */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 20px 0; /* Space between courses */
+    position: relative; /* Needed for popout explanation */
+}
+
+.course-icon {
+    width: 50px; /* Icon size */
+    height: 50px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.popout-explanation {
+    display: none; /* Hidden by default */
+    position: absolute; /* Absolute positioning */
+    top: 50px; /* Position below the course description */
+    left: 20px; /* Adjust for desired alignment */
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    padding: 10px; /* Inner spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    z-index: 10; /* Above other elements */
+}
+
+.course:hover .popout-explanation {
+    display: block; /* Show on hover */
+}
+
+/* Image Gallery Section */
+#gallery {
+    margin: 50px 0; /* Spacing for gallery section */
+}
+
+.gallery-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between images */
+}
+
+.gallery-image {
+    width: 30%; /* Width of images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* WhatsApp Button */
+.whatsapp-button {
+    display: inline-block; /* Inline button */
+    background-color: #25D366; /* WhatsApp green */
+    color: #fff; /* White text */
+    padding: 15px 20px; /* Button padding */
+    border-radius: 50px; /* Rounded button */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Font size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation on hover */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly increase size */
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2; /* Footer color */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding for footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Heading Styles */
+h2 {
+    color: #32CD32; /* Lime Green for section headings */
+    margin-bottom: 20px; /* Space between heading and video */
+}
+
+h3 {
+    color: #87CEEB; /* Sky Blue for course titles */
+}
+
+/* Optional: Paragraph styling for better presentation */
+p {
+    font-size: 1.2em; /* Slightly larger paragraph text */
+    color: #333; /* Default text color */
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+    width: 24px; /* Adjust width to match SVG size */
+    height: 24px; /* Adjust height to match SVG size */
+    margin-right: 8px; /* Space between icon and text */
+}
